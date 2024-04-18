@@ -8,7 +8,7 @@ class home extends Controller{
 	// Default method
 	public function index($name="Juan", $age="24"){
 		// Associative Arrays (arrays with keys)
-		$arr_data['name'] = $name;
+		$arr_data['name'] = $name
 		$arr_data['age'] = $age;
 		$arr_data['title'] = "Home Page";
 		// Display page and send data
